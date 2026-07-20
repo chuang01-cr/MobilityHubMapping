@@ -1,0 +1,7 @@
+from SEDataObjects.BaseLayer.constants import SMART_LOCATION_POPULATION_DENSITY_COLUMN, SMART_LOCATION_POPULATION_DENSITY_NAME
+from SEDataObjects.BaseLayer.entities import BaseLayerSmartLocation
+
+
+class SmartLocationPopulationDensity(BaseLayerSmartLocation):
+    metric_field_id = SMART_LOCATION_POPULATION_DENSITY_COLUMN
+    metric_alias = SMART_LOCATION_POPULATION_DENSITY_NAME
